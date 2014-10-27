@@ -15,7 +15,8 @@ class ModifyCommand(sublime_plugin.TextCommand):
       # Add any custom replacements here
       self.exception_dict = { 
                    '<' : '&lt;',
-                   '>' : '&gt;'
+                   '>' : '&gt;',
+                   '&' : '&amp;'
                   }
 
       final = ''
